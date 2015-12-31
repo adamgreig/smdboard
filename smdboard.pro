@@ -1,4 +1,4 @@
-update=Fri 25 Dec 2015 23:34:50 GMT
+update=Wed 30 Dec 2015 17:58:23 GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,4 +29,4 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=agg-kicad
+LibName1=agg-kicad/lib/agg-kicad
