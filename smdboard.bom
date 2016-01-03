@@ -1,0 +1,157 @@
+Bill Of Materials
+=================
+
+Source file: smdboard.xml
+Date: 2016-01-03T18:50:33.243643
+
+Parts Missing Footprints
+------------------------
+
+
+Parts Missing Order Codes
+-------------------------
+R14    R               agg:0201
+R35    R               agg:0201
+R56    R               agg:0201
+R77    R               agg:0201
+R15    R               agg:0201
+R36    R               agg:0201
+R57    R               agg:0201
+R78    R               agg:0201
+R16    R               agg:0201
+R37    R               agg:0201
+R58    R               agg:0201
+R79    R               agg:0201
+R17    R               agg:0402
+R38    R               agg:0402
+R59    R               agg:0402
+R80    R               agg:0402
+R18    R               agg:0402
+R39    R               agg:0402
+R60    R               agg:0402
+R81    R               agg:0402
+R19    R               agg:0402
+R40    R               agg:0402
+R61    R               agg:0402
+R82    R               agg:0402
+R20    R               agg:0402-L
+R41    R               agg:0402-L
+R62    R               agg:0402-L
+R83    R               agg:0402-L
+R21    R               agg:0402-L
+R42    R               agg:0402-L
+R63    R               agg:0402-L
+R84    R               agg:0402-L
+R22    R               agg:0402-L
+R43    R               agg:0402-L
+R64    R               agg:0402-L
+R85    R               agg:0402-L
+R23    R               agg:0603
+R44    R               agg:0603
+R65    R               agg:0603
+R86    R               agg:0603
+R24    R               agg:0603
+R45    R               agg:0603
+R66    R               agg:0603
+R87    R               agg:0603
+R25    R               agg:0603
+R46    R               agg:0603
+R67    R               agg:0603
+R88    R               agg:0603
+R26    R               agg:0603-L
+R47    R               agg:0603-L
+R68    R               agg:0603-L
+R89    R               agg:0603-L
+R27    R               agg:0603-L
+R48    R               agg:0603-L
+R69    R               agg:0603-L
+R90    R               agg:0603-L
+R28    R               agg:0603-L
+R49    R               agg:0603-L
+R70    R               agg:0603-L
+R91    R               agg:0603-L
+R29    R               agg:0805
+R50    R               agg:0805
+R71    R               agg:0805
+R30    R               agg:0805
+R51    R               agg:0805
+R72    R               agg:0805
+R31    R               agg:0805
+R52    R               agg:0805
+R73    R               agg:0805
+R32    R               agg:1206
+R53    R               agg:1206
+R33    R               agg:1206
+R54    R               agg:1206
+R34    R               agg:1206
+R55    R               agg:1206
+X1     MSOP-8          agg:MSOP-8
+X3     LQFP-48         agg:LQFP-48
+X9     LQFP-100        agg:LQFP-100
+X4     QFN-48          agg:QFN-48-EP-ST
+R74    R               agg:0805
+R75    R               agg:0805
+R76    R               agg:0805
+R92    R               agg:0201-L
+R95    R               agg:0201-L
+R98    R               agg:0201-L
+R101   R               agg:0201-L
+R93    R               agg:0201-L
+R96    R               agg:0201-L
+R99    R               agg:0201-L
+R102   R               agg:0201-L
+R94    R               agg:0201-L
+R97    R               agg:0201-L
+R100   R               agg:0201-L
+R103   R               agg:0201-L
+P1     SWD_TC          agg:TC2030-NL
+TP2    TESTPAD         agg:WIREPAD
+TP1    TESTPAD         agg:WIREPAD
+TP3    TESTPAD         agg:WIREPAD
+TP4    TESTPAD         agg:WIREPAD
+
+Inconsistent Order Codes
+------------------------
+
+
+Vendor Specific BOMs
+--------------------
+  Farnell
+  ~~~~~~~
+2497045,1,1x 1µ 0805
+2447587,8,8x 1k 0402-L
+1758924,1,1x 10n 0402-L
+2496916,1,1x 1µ 0603-L
+2496944,4,4x 100n 0805
+1085280,1,1x 4017 SOIC-16
+2447551,2,2x 100k 0805
+1568023,1,1x MICROUSB MICROUSB_MOLEX_475
+2496923,2,2x 2µ2 0603-L
+2290329,8,8x LED 0603-LED
+5790840,11,11x LED 0805-LED
+1466524,10,10x ~ SOD-323
+1759380,2,2x 100n 0402-L
+9589880,1,1x 555 SOIC-8
+2447552,11,11x 100 0805
+2503242,1,1x STM32F091RxHx UFBGA-64
+
+
+Assembly BOM
+------------
+2497045              1   1µ              0805            C5
+2447587              8   1k              0402-L          R104 R105 R106 R107 R108 R109 R110 R111
+1758924              1   10n             0402-L          C11
+2496916              1   1µ              0603-L          C8
+2496944              4   100n            0805            C1 C2 C3 C4
+1085280              1   4017            SOIC-16         IC1
+2447551              2   100k            0805            R1 R2
+1568023              1   MICROUSB        MICROUSB_MOLEX_47589-0001 J1
+2496923              2   2µ2             0603-L          C6 C7
+2290329              8   LED             0603-LED        D22 D23 D24 D25 D26 D27 D28 D29
+5790840              11  LED             0805-LED        D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21
+1466524              10  ~               SOD-323         D1 D10 D2 D3 D4 D5 D6 D7 D8 D9
+1759380              2   100n            0402-L          C10 C9
+9589880              1   555             SOIC-8          IC2
+2447552              11  100             0805            R10 R11 R12 R13 R3 R4 R5 R6 R7 R8 R9
+2503242              1   STM32F091RxHx   UFBGA-64        IC3
+

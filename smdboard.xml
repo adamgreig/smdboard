@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/adam/Projects/smdboard/smdboard.sch</source>
-    <date>Sat 26 Dec 2015 00:40:36 GMT</date>
-    <tool>Eeschema 0.201511110416+6307~30~ubuntu14.04.1-product</tool>
+    <date>Sun 03 Jan 2016 18:50:33 GMT</date>
+    <tool>Eeschema 0.201512311516+6410~40~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>SMD Test Board</title>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="IC2">
       <value>555</value>
-      <footprint>agg:SOIC8</footprint>
+      <footprint>agg:SOIC-8</footprint>
       <fields>
         <field name="Farnell">9589880</field>
       </fields>
@@ -31,7 +31,7 @@
     </comp>
     <comp ref="IC1">
       <value>4017</value>
-      <footprint>agg:SOIC16</footprint>
+      <footprint>agg:SOIC-16</footprint>
       <fields>
         <field name="Farnell">1085280</field>
       </fields>
@@ -41,235 +41,1326 @@
     </comp>
     <comp ref="R1">
       <value>100k</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447551</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD34D</tstamp>
     </comp>
     <comp ref="R2">
       <value>100k</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447551</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD38A</tstamp>
     </comp>
     <comp ref="C5">
       <value>1µ</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2497045</field>
+      </fields>
       <libsource lib="agg-kicad" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD3A7</tstamp>
     </comp>
     <comp ref="C3">
       <value>100n</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2496944</field>
+      </fields>
       <libsource lib="agg-kicad" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD3D3</tstamp>
     </comp>
     <comp ref="C4">
       <value>100n</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2496944</field>
+      </fields>
       <libsource lib="agg-kicad" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD401</tstamp>
     </comp>
     <comp ref="C1">
       <value>100n</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2496944</field>
+      </fields>
       <libsource lib="agg-kicad" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDA24</tstamp>
     </comp>
-    <comp ref="D1">
+    <comp ref="D2">
       <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
       <libsource lib="agg-kicad" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD76A</tstamp>
     </comp>
-    <comp ref="D9">
+    <comp ref="D11">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD7E1</tstamp>
     </comp>
     <comp ref="R5">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DD832</tstamp>
     </comp>
     <comp ref="R6">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDBA1</tstamp>
     </comp>
     <comp ref="R7">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDBD9</tstamp>
     </comp>
     <comp ref="R8">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDC7C</tstamp>
     </comp>
     <comp ref="R4">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDCD8</tstamp>
     </comp>
     <comp ref="R3">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDD19</tstamp>
     </comp>
     <comp ref="R9">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDD5D</tstamp>
     </comp>
     <comp ref="R10">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDDA8</tstamp>
     </comp>
     <comp ref="R11">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDDF2</tstamp>
     </comp>
     <comp ref="R12">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDE3F</tstamp>
     </comp>
     <comp ref="R13">
       <value>100</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2447552</field>
+      </fields>
       <libsource lib="agg-kicad" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DDE93</tstamp>
     </comp>
-    <comp ref="D10">
+    <comp ref="D12">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE017</tstamp>
     </comp>
-    <comp ref="D11">
+    <comp ref="D13">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE06D</tstamp>
     </comp>
-    <comp ref="D12">
+    <comp ref="D14">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE0C6</tstamp>
     </comp>
-    <comp ref="D13">
+    <comp ref="D15">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE122</tstamp>
     </comp>
-    <comp ref="D14">
+    <comp ref="D16">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE181</tstamp>
     </comp>
-    <comp ref="D15">
+    <comp ref="D17">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE1E7</tstamp>
     </comp>
-    <comp ref="D16">
+    <comp ref="D18">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE24C</tstamp>
     </comp>
-    <comp ref="D17">
+    <comp ref="D19">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE2B8</tstamp>
     </comp>
-    <comp ref="D18">
+    <comp ref="D20">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE323</tstamp>
     </comp>
-    <comp ref="D19">
+    <comp ref="D21">
       <value>LED</value>
+      <footprint>agg:0805-LED</footprint>
+      <fields>
+        <field name="Farnell">5790840</field>
+      </fields>
       <libsource lib="agg-kicad" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567DE391</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>~</value>
-      <libsource lib="agg-kicad" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567DF412</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>~</value>
-      <libsource lib="agg-kicad" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567DF5B9</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>~</value>
-      <libsource lib="agg-kicad" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567DF7A5</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>~</value>
-      <libsource lib="agg-kicad" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567DF946</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>~</value>
-      <libsource lib="agg-kicad" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567DFA9D</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>~</value>
-      <libsource lib="agg-kicad" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567DFBF7</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>~</value>
-      <libsource lib="agg-kicad" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567DFD54</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>MICROUSB</value>
-      <footprint>agg:USB3065</footprint>
-      <fields>
-        <field name="Farnell">2443111</field>
-      </fields>
-      <libsource lib="agg-kicad" part="MICROUSB"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567E1EBA</tstamp>
-    </comp>
     <comp ref="C2">
       <value>100n</value>
+      <footprint>agg:0805</footprint>
+      <fields>
+        <field name="Farnell">2496944</field>
+      </fields>
       <libsource lib="agg-kicad" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567E25DF</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56846956</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56846B38</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56846CAD</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56846D44</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684733E</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56847344</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684734A</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56847350</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684746A</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56847470</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56847476</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>R</value>
+      <footprint>agg:0201</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684747C</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490C4</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490CA</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490D0</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490D6</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490DD</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490E3</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490E9</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490EF</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490F5</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568490FB</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56849101</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>R</value>
+      <footprint>agg:0402</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56849107</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A0DB</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A0E1</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A0E7</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A0ED</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A0F4</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A0FA</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A100</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A106</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A10C</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A112</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A118</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>R</value>
+      <footprint>agg:0402-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684A11E</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9A6</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9AC</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9B2</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9B8</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9BF</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9C5</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9CB</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9D1</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9D7</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9DD</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9E3</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B9E9</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7AD</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7B3</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7B9</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7BF</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7C6</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7CC</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7D2</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7D8</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7DE</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7E4</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7EA</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>R</value>
+      <footprint>agg:0603-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C7F0</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D5F8</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D5FE</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D604</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D611</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D617</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D61D</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D629</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D62F</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D635</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MICROUSB</value>
+      <footprint>agg:MICROUSB_MOLEX_47589-0001</footprint>
+      <fields>
+        <field name="Farnell">1568023</field>
+      </fields>
+      <libsource lib="agg-kicad" part="MICROUSB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684E6A9</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>R</value>
+      <footprint>agg:1206</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56852863</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>R</value>
+      <footprint>agg:1206</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56852869</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>R</value>
+      <footprint>agg:1206</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685287C</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>R</value>
+      <footprint>agg:1206</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56852882</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>R</value>
+      <footprint>agg:1206</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56852894</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>R</value>
+      <footprint>agg:1206</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685289A</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>MSOP-8</value>
+      <footprint>agg:MSOP-8</footprint>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56856476</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>LQFP-48</value>
+      <footprint>agg:LQFP-48</footprint>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56857015</tstamp>
+    </comp>
+    <comp ref="X9">
+      <value>LQFP-100</value>
+      <footprint>agg:LQFP-100</footprint>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685802B</tstamp>
+    </comp>
+    <comp ref="X4">
+      <value>QFN-48</value>
+      <footprint>agg:QFN-48-EP-ST</footprint>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685857C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56846A4E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56846D2E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56846EAE</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56847029</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568471A1</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56847322</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568474A6</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56849896</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56849A18</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>R</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56849B9D</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D422</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D428</tstamp>
+    </comp>
+    <comp ref="R98">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D42E</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D434</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D43B</tstamp>
+    </comp>
+    <comp ref="R96">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D441</tstamp>
+    </comp>
+    <comp ref="R99">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D447</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D44D</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D453</tstamp>
+    </comp>
+    <comp ref="R97">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D459</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D45F</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>R</value>
+      <footprint>agg:0201-L</footprint>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684D465</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>STM32F091RxHx</value>
+      <footprint>agg:UFBGA-64</footprint>
+      <fields>
+        <field name="Farnell">2503242</field>
+      </fields>
+      <libsource lib="smdboard-cache" part="STM32F091RxHx"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568486F2</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>SWD_TC</value>
+      <footprint>agg:TC2030-NL</footprint>
+      <libsource lib="agg-kicad" part="SWD_TC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684B8B4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">1759380</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56853574</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">1759380</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56853726</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1µ</value>
+      <footprint>agg:0603-L</footprint>
+      <fields>
+        <field name="Farnell">2496916</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56853966</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>2µ2</value>
+      <footprint>agg:0603-L</footprint>
+      <fields>
+        <field name="Farnell">2496923</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568540AA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2µ2</value>
+      <footprint>agg:0603-L</footprint>
+      <fields>
+        <field name="Farnell">2496923</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568544B1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10n</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">1758924</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56854886</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56858538</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56858E78</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685A063</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685A069</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685A218</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685A21E</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C18F</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C195</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C4CC</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C4D2</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C63B</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684C641</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684CAB8</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5684CABE</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>1k</value>
+      <footprint>agg:0402-L</footprint>
+      <fields>
+        <field name="Farnell">2447587</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56853985</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>agg:0603-LED</footprint>
+      <fields>
+        <field name="Farnell">2290329</field>
+      </fields>
+      <libsource lib="agg-kicad" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685398B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5685130C</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>~</value>
+      <footprint>agg:SOD-323</footprint>
+      <fields>
+        <field name="Farnell">1466524</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56851AB2</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TESTPAD</value>
+      <footprint>agg:WIREPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686CEB1</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TESTPAD</value>
+      <footprint>agg:WIREPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686DB71</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TESTPAD</value>
+      <footprint>agg:WIREPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686E2B7</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TESTPAD</value>
+      <footprint>agg:WIREPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F93E</tstamp>
     </comp>
   </components>
   <libparts>
@@ -351,8 +1442,8 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">MICROUSB</field>
-        <field name="Footprint">agg:USB3065</field>
-        <field name="Farnell">2443111</field>
+        <field name="Footprint">agg:MICROUSB_MOLEX_47589-0001</field>
+        <field name="Farnell">1568023</field>
       </fields>
       <pins>
         <pin num="1" name="VCC" type="power_in"/>
@@ -362,6 +1453,12 @@
         <pin num="5" name="GND" type="power_in"/>
         <pin num="S" name="SHIELD" type="power_in"/>
       </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="PART">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PART</field>
+      </fields>
     </libpart>
     <libpart lib="agg-kicad" part="R">
       <fields>
@@ -373,190 +1470,876 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="smdboard-cache" part="STM32F091RxHx">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">STM32F091RxHx</field>
+        <field name="Footprint">agg:UFBGA-64</field>
+        <field name="Farnell">2503242</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="PC14" type="BiDi"/>
+        <pin num="A2" name="PC13" type="BiDi"/>
+        <pin num="A3" name="PB9" type="BiDi"/>
+        <pin num="A4" name="PB4" type="BiDi"/>
+        <pin num="A5" name="PB3" type="BiDi"/>
+        <pin num="A6" name="PA15" type="BiDi"/>
+        <pin num="A7" name="PA14" type="BiDi"/>
+        <pin num="A8" name="PA13" type="BiDi"/>
+        <pin num="B1" name="PC15" type="BiDi"/>
+        <pin num="B2" name="VBAT" type="power_in"/>
+        <pin num="B3" name="PB8" type="BiDi"/>
+        <pin num="B4" name="BOOT0" type="input"/>
+        <pin num="B5" name="PD2" type="BiDi"/>
+        <pin num="B6" name="PC11" type="BiDi"/>
+        <pin num="B7" name="PC10" type="BiDi"/>
+        <pin num="B8" name="PA12" type="BiDi"/>
+        <pin num="C1" name="PF0" type="BiDi"/>
+        <pin num="C2" name="VSS" type="power_in"/>
+        <pin num="C3" name="PB7" type="BiDi"/>
+        <pin num="C4" name="PB5" type="BiDi"/>
+        <pin num="C5" name="PC12" type="BiDi"/>
+        <pin num="C6" name="PA10" type="BiDi"/>
+        <pin num="C7" name="PA9" type="BiDi"/>
+        <pin num="C8" name="PA11" type="BiDi"/>
+        <pin num="D1" name="PF1" type="BiDi"/>
+        <pin num="D2" name="VDD" type="power_in"/>
+        <pin num="D3" name="PB6" type="BiDi"/>
+        <pin num="D4" name="VSS" type="power_in"/>
+        <pin num="D5" name="VSS" type="power_in"/>
+        <pin num="D6" name="VSS" type="power_in"/>
+        <pin num="D7" name="PA8" type="BiDi"/>
+        <pin num="D8" name="PC9" type="BiDi"/>
+        <pin num="E1" name="NRST" type="input"/>
+        <pin num="E2" name="PC1" type="BiDi"/>
+        <pin num="E3" name="PC0" type="BiDi"/>
+        <pin num="E4" name="VDD" type="power_in"/>
+        <pin num="E5" name="VDD" type="power_in"/>
+        <pin num="E6" name="VDDIO2" type="power_in"/>
+        <pin num="E7" name="PC7" type="BiDi"/>
+        <pin num="E8" name="PC8" type="BiDi"/>
+        <pin num="F1" name="VSSA" type="power_in"/>
+        <pin num="F2" name="PC2" type="BiDi"/>
+        <pin num="F3" name="PA2" type="BiDi"/>
+        <pin num="F4" name="PA5" type="BiDi"/>
+        <pin num="F5" name="PB0" type="BiDi"/>
+        <pin num="F6" name="PC6" type="BiDi"/>
+        <pin num="F7" name="PB15" type="BiDi"/>
+        <pin num="F8" name="PB14" type="BiDi"/>
+        <pin num="G1" name="PC3" type="BiDi"/>
+        <pin num="G2" name="PA0" type="BiDi"/>
+        <pin num="G3" name="PA3" type="BiDi"/>
+        <pin num="G4" name="PA6" type="BiDi"/>
+        <pin num="G5" name="PB1" type="BiDi"/>
+        <pin num="G6" name="PB2" type="BiDi"/>
+        <pin num="G7" name="PB10" type="BiDi"/>
+        <pin num="G8" name="PB13" type="BiDi"/>
+        <pin num="H1" name="VDDA" type="power_in"/>
+        <pin num="H2" name="PA1" type="BiDi"/>
+        <pin num="H3" name="PA4" type="BiDi"/>
+        <pin num="H4" name="PA7" type="BiDi"/>
+        <pin num="H5" name="PC4" type="BiDi"/>
+        <pin num="H6" name="PC5" type="BiDi"/>
+        <pin num="H7" name="PB11" type="BiDi"/>
+        <pin num="H8" name="PB12" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="SWD_TC">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SWD_TC</field>
+        <field name="Footprint">agg:TC2030-NL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="SWDIO" type="BiDi"/>
+        <pin num="3" name="~RST" type="output"/>
+        <pin num="4" name="SWDCLK" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SWO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="TESTPAD">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TESTPAD</field>
+        <field name="Footprint">agg:TESTPAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="input"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
+    <library logical="smdboard-cache">
+      <uri>/home/adam/Projects/smdboard/smdboard-cache.lib</uri>
+    </library>
     <library logical="agg-kicad">
-      <uri>/home/adam/Projects/smdboard/agg-kicad.lib</uri>
+      <uri>/home/adam/Projects/smdboard/agg-kicad/lib/agg-kicad.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D14-Pad2)">
-      <node ref="IC1" pin="3"/>
-      <node ref="D14" pin="2"/>
-    </net>
-    <net code="2" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="IC1" pin="2"/>
-    </net>
-    <net code="3" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="IC1" pin="4"/>
-    </net>
-    <net code="4" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="IC1" pin="7"/>
-    </net>
-    <net code="5" name="Net-(D4-Pad2)">
-      <node ref="IC1" pin="10"/>
-      <node ref="D4" pin="2"/>
-    </net>
-    <net code="6" name="Net-(D19-Pad2)">
-      <node ref="D19" pin="2"/>
-      <node ref="IC1" pin="1"/>
-      <node ref="D9" pin="2"/>
-    </net>
-    <net code="7" name="Net-(D10-Pad2)">
-      <node ref="D18" pin="2"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D10" pin="2"/>
-    </net>
-    <net code="8" name="Net-(D5-Pad2)">
-      <node ref="IC1" pin="5"/>
-      <node ref="D5" pin="2"/>
-    </net>
-    <net code="9" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
+    <net code="1" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
       <node ref="IC1" pin="6"/>
     </net>
-    <net code="10" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D17" pin="2"/>
+    <net code="2" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="IC1" pin="2"/>
     </net>
-    <net code="11" name="Net-(D12-Pad2)">
-      <node ref="D7" pin="1"/>
+    <net code="3" name="Net-(D3-Pad2)">
+      <node ref="IC1" pin="4"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D4-Pad2)">
+      <node ref="IC1" pin="7"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D5-Pad2)">
+      <node ref="IC1" pin="10"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2"/>
-      <node ref="D16" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D7-Pad2)">
+      <node ref="IC1" pin="5"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D13-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D14-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D9-Pad2)">
+      <node ref="IC1" pin="9"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D10-Pad1)">
+      <node ref="D17" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D15" pin="2"/>
       <node ref="D2" pin="1"/>
     </net>
-    <net code="12" name="Net-(D7-Pad2)">
-      <node ref="D7" pin="2"/>
-      <node ref="IC1" pin="9"/>
+    <net code="12" name="Net-(D10-Pad2)">
+      <node ref="IC1" pin="11"/>
+      <node ref="D10" pin="2"/>
     </net>
-    <net code="13" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
+    <net code="13" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
     </net>
-    <net code="14" name="Net-(J1-Pad4)">
-      <node ref="J1" pin="4"/>
+    <net code="14" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="IC2" pin="5"/>
     </net>
-    <net code="15" name="{}">
-      <node ref="IC1" pin="15"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="IC1" pin="8"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R3" pin="1"/>
+    <net code="15" name="GND">
+      <node ref="C2" pin="1"/>
       <node ref="R9" pin="1"/>
       <node ref="R10" pin="1"/>
-      <node ref="IC2" pin="1"/>
+      <node ref="R4" pin="1"/>
       <node ref="J1" pin="5"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R11" pin="1"/>
       <node ref="R12" pin="1"/>
       <node ref="R13" pin="1"/>
-      <node ref="C2" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="16" name="Net-(J1-PadS)">
-      <node ref="J1" pin="S"/>
-    </net>
-    <net code="17" name="Net-(C4-Pad1)">
-      <node ref="IC2" pin="5"/>
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="18" name="Net-(D1-Pad1)">
-      <node ref="D13" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="D15" pin="2"/>
-      <node ref="D8" pin="1"/>
-    </net>
-    <net code="19" name="Net-(IC2-Pad7)">
-      <node ref="IC2" pin="7"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="20" name="Net-(C5-Pad2)">
-      <node ref="R2" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="IC2" pin="6"/>
-      <node ref="IC2" pin="2"/>
-    </net>
-    <net code="21" name="Net-(IC1-Pad14)">
-      <node ref="IC2" pin="3"/>
-      <node ref="IC1" pin="14"/>
-    </net>
-    <net code="22" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="23" name="VCC">
+    <net code="16" name="VCC">
       <node ref="J1" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="IC2" pin="4"/>
       <node ref="IC2" pin="8"/>
       <node ref="IC1" pin="16"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="TP1" pin="1"/>
       <node ref="R1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="1"/>
     </net>
-    <net code="24" name="Net-(D16-Pad1)">
-      <node ref="D16" pin="1"/>
-      <node ref="R10" pin="2"/>
+    <net code="17" name="Net-(IC2-Pad7)">
+      <node ref="R1" pin="1"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="25" name="Net-(D8-Pad2)">
-      <node ref="IC1" pin="11"/>
-      <node ref="D8" pin="2"/>
-    </net>
-    <net code="26" name="Net-(D9-Pad1)">
+    <net code="18" name="Net-(D11-Pad1)">
       <node ref="R3" pin="2"/>
-      <node ref="D9" pin="1"/>
-    </net>
-    <net code="27" name="Net-(D10-Pad1)">
-      <node ref="R4" pin="2"/>
-      <node ref="D10" pin="1"/>
-    </net>
-    <net code="28" name="Net-(D11-Pad1)">
-      <node ref="R5" pin="2"/>
       <node ref="D11" pin="1"/>
     </net>
-    <net code="29" name="Net-(D12-Pad1)">
+    <net code="19" name="Net-(C5-Pad2)">
+      <node ref="IC2" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="21" name="Net-(D12-Pad1)">
+      <node ref="R4" pin="2"/>
       <node ref="D12" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1"/>
       <node ref="R6" pin="2"/>
     </net>
-    <net code="30" name="Net-(D13-Pad1)">
-      <node ref="D13" pin="1"/>
+    <net code="24" name="Net-(D15-Pad1)">
       <node ref="R7" pin="2"/>
-    </net>
-    <net code="31" name="Net-(D14-Pad1)">
-      <node ref="R8" pin="2"/>
-      <node ref="D14" pin="1"/>
-    </net>
-    <net code="32" name="Net-(D15-Pad1)">
-      <node ref="R9" pin="2"/>
       <node ref="D15" pin="1"/>
     </net>
-    <net code="33" name="Net-(D17-Pad1)">
-      <node ref="R11" pin="2"/>
+    <net code="25" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D17-Pad1)">
+      <node ref="R9" pin="2"/>
       <node ref="D17" pin="1"/>
     </net>
-    <net code="34" name="Net-(D18-Pad1)">
-      <node ref="R12" pin="2"/>
+    <net code="27" name="Net-(D18-Pad1)">
+      <node ref="R10" pin="2"/>
       <node ref="D18" pin="1"/>
     </net>
-    <net code="35" name="Net-(D19-Pad1)">
-      <node ref="R13" pin="2"/>
+    <net code="28" name="Net-(D19-Pad1)">
+      <node ref="R11" pin="2"/>
       <node ref="D19" pin="1"/>
     </net>
-    <net code="36" name="Net-(IC1-Pad13)">
+    <net code="29" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D21-Pad1)">
+      <node ref="D21" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="31" name="Net-(IC3-PadC5)">
+      <node ref="IC3" pin="C5"/>
+    </net>
+    <net code="32" name="Net-(IC3-PadC6)">
+      <node ref="IC3" pin="C6"/>
+    </net>
+    <net code="33" name="Net-(IC3-PadC8)">
+      <node ref="IC3" pin="C8"/>
+    </net>
+    <net code="34" name="Net-(IC3-PadB8)">
+      <node ref="IC3" pin="B8"/>
+    </net>
+    <net code="35" name="Net-(IC3-PadA6)">
+      <node ref="IC3" pin="A6"/>
+    </net>
+    <net code="36" name="Net-(IC3-PadF7)">
+      <node ref="IC3" pin="F7"/>
+    </net>
+    <net code="37" name="Net-(IC3-PadF8)">
+      <node ref="IC3" pin="F8"/>
+    </net>
+    <net code="38" name="Net-(IC3-PadG7)">
+      <node ref="IC3" pin="G7"/>
+    </net>
+    <net code="39" name="Net-(IC3-PadA3)">
+      <node ref="IC3" pin="A3"/>
+    </net>
+    <net code="40" name="Net-(IC3-PadA4)">
+      <node ref="IC3" pin="A4"/>
+    </net>
+    <net code="41" name="Net-(IC3-PadA5)">
+      <node ref="IC3" pin="A5"/>
+    </net>
+    <net code="42" name="Net-(IC3-PadG6)">
+      <node ref="IC3" pin="G6"/>
+    </net>
+    <net code="43" name="Net-(IC3-PadG5)">
+      <node ref="IC3" pin="G5"/>
+    </net>
+    <net code="44" name="Net-(IC3-PadF5)">
+      <node ref="IC3" pin="F5"/>
+    </net>
+    <net code="45" name="Net-(IC3-PadA1)">
+      <node ref="IC3" pin="A1"/>
+    </net>
+    <net code="46" name="Net-(IC3-PadB1)">
+      <node ref="IC3" pin="B1"/>
+    </net>
+    <net code="47" name="Net-(IC3-PadC7)">
+      <node ref="IC3" pin="C7"/>
+    </net>
+    <net code="48" name="Net-(IC3-PadB6)">
+      <node ref="IC3" pin="B6"/>
+    </net>
+    <net code="49" name="Net-(IC3-PadB7)">
+      <node ref="IC3" pin="B7"/>
+    </net>
+    <net code="50" name="Net-(IC3-PadF6)">
+      <node ref="IC3" pin="F6"/>
+    </net>
+    <net code="51" name="Net-(IC3-PadF2)">
+      <node ref="IC3" pin="F2"/>
+    </net>
+    <net code="52" name="Net-(IC3-PadE2)">
+      <node ref="IC3" pin="E2"/>
+    </net>
+    <net code="53" name="Net-(IC3-PadB5)">
+      <node ref="IC3" pin="B5"/>
+    </net>
+    <net code="54" name="Net-(IC3-PadG8)">
+      <node ref="R111" pin="1"/>
+      <node ref="IC3" pin="G8"/>
+    </net>
+    <net code="55" name="Net-(D29-Pad2)">
+      <node ref="R111" pin="2"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="56" name="Net-(IC3-PadH6)">
+      <node ref="IC3" pin="H6"/>
+      <node ref="R108" pin="1"/>
+    </net>
+    <net code="57" name="Net-(D26-Pad2)">
+      <node ref="R108" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="58" name="Net-(IC3-PadH7)">
+      <node ref="IC3" pin="H7"/>
+      <node ref="R109" pin="1"/>
+    </net>
+    <net code="59" name="DGND">
+      <node ref="D22" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="IC3" pin="D8"/>
+      <node ref="IC3" pin="D7"/>
+      <node ref="IC3" pin="C2"/>
+      <node ref="IC3" pin="F1"/>
+      <node ref="IC3" pin="C1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="IC3" pin="D6"/>
+      <node ref="IC3" pin="B4"/>
+      <node ref="IC3" pin="C4"/>
+      <node ref="IC3" pin="D5"/>
+      <node ref="IC3" pin="D4"/>
+    </net>
+    <net code="60" name="Net-(D27-Pad2)">
+      <node ref="R109" pin="2"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="61" name="Net-(IC3-PadH8)">
+      <node ref="IC3" pin="H8"/>
+      <node ref="R110" pin="1"/>
+    </net>
+    <net code="62" name="Net-(D28-Pad2)">
+      <node ref="R110" pin="2"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="63" name="Net-(IC3-PadF4)">
+      <node ref="IC3" pin="F4"/>
+    </net>
+    <net code="64" name="Net-(IC3-PadG4)">
+      <node ref="IC3" pin="G4"/>
+    </net>
+    <net code="65" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="67" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="69" name="Net-(IC3-PadH5)">
+      <node ref="R107" pin="1"/>
+      <node ref="IC3" pin="H5"/>
+    </net>
+    <net code="70" name="Net-(IC3-PadA2)">
+      <node ref="IC3" pin="A2"/>
+    </net>
+    <net code="71" name="/NRST">
+      <node ref="P1" pin="3"/>
+      <node ref="IC3" pin="E1"/>
+    </net>
+    <net code="72" name="/SWDIO">
+      <node ref="P1" pin="2"/>
+      <node ref="IC3" pin="A8"/>
+    </net>
+    <net code="73" name="/SWDCLK">
+      <node ref="P1" pin="4"/>
+      <node ref="IC3" pin="A7"/>
+    </net>
+    <net code="74" name="VDD">
+      <node ref="IC3" pin="E5"/>
+      <node ref="IC3" pin="E6"/>
+      <node ref="IC3" pin="D3"/>
+      <node ref="IC3" pin="C3"/>
+      <node ref="IC3" pin="F3"/>
+      <node ref="IC3" pin="G3"/>
+      <node ref="P1" pin="1"/>
+      <node ref="IC3" pin="E8"/>
+      <node ref="IC3" pin="E7"/>
+      <node ref="IC3" pin="B3"/>
+      <node ref="IC3" pin="E3"/>
+      <node ref="IC3" pin="G2"/>
+      <node ref="IC3" pin="D2"/>
+      <node ref="IC3" pin="E4"/>
+      <node ref="IC3" pin="B2"/>
+      <node ref="IC3" pin="H1"/>
+      <node ref="IC3" pin="G1"/>
+      <node ref="IC3" pin="D1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="75" name="PGND">
+      <node ref="R51" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="R67" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R55" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R88" pin="2"/>
+      <node ref="R88" pin="1"/>
+      <node ref="R67" pin="2"/>
+      <node ref="R69" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R52" pin="2"/>
+      <node ref="R73" pin="1"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R64" pin="2"/>
+      <node ref="R64" pin="1"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R84" pin="2"/>
+      <node ref="R63" pin="2"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R97" pin="1"/>
+      <node ref="R97" pin="2"/>
+      <node ref="R100" pin="1"/>
+      <node ref="R100" pin="2"/>
+      <node ref="R94" pin="1"/>
+      <node ref="R102" pin="2"/>
+      <node ref="R99" pin="2"/>
+      <node ref="R96" pin="2"/>
+      <node ref="R93" pin="2"/>
+      <node ref="R76" pin="2"/>
+      <node ref="R76" pin="1"/>
+      <node ref="R75" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R46" pin="2"/>
+      <node ref="R94" pin="2"/>
+      <node ref="R90" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R70" pin="1"/>
+      <node ref="R70" pin="2"/>
+      <node ref="R91" pin="1"/>
+      <node ref="R91" pin="2"/>
+      <node ref="R48" pin="2"/>
+      <node ref="R46" pin="1"/>
+      <node ref="R60" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R81" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R85" pin="1"/>
+      <node ref="R85" pin="2"/>
+      <node ref="R61" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R87" pin="2"/>
+      <node ref="R66" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R78" pin="2"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R58" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R82" pin="2"/>
+      <node ref="R82" pin="1"/>
+      <node ref="R61" pin="2"/>
+      <node ref="R79" pin="2"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="77" name="Net-(IC3-PadH2)">
+      <node ref="IC3" pin="H2"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="78" name="Net-(IC3-PadH4)">
+      <node ref="IC3" pin="H4"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="79" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="R107" pin="2"/>
+    </net>
+    <net code="81" name="Net-(IC3-PadH3)">
+      <node ref="IC3" pin="H3"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="82" name="Net-(D23-Pad2)">
+      <node ref="R105" pin="2"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R56-Pad1)">
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="84" name="Net-(R77-Pad1)">
+      <node ref="R77" pin="1"/>
+    </net>
+    <net code="85" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="86" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="87" name="Net-(R38-Pad1)">
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="88" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="89" name="Net-(R59-Pad1)">
+      <node ref="R59" pin="1"/>
+    </net>
+    <net code="90" name="Net-(R59-Pad2)">
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="91" name="Net-(R80-Pad1)">
+      <node ref="R80" pin="1"/>
+    </net>
+    <net code="92" name="Net-(R80-Pad2)">
+      <node ref="R80" pin="2"/>
+    </net>
+    <net code="93" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R39-Pad1)">
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R60-Pad1)">
+      <node ref="R60" pin="1"/>
+    </net>
+    <net code="96" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="97" name="Net-(R81-Pad1)">
+      <node ref="R81" pin="1"/>
+    </net>
+    <net code="98" name="Net-(R56-Pad2)">
+      <node ref="R56" pin="2"/>
+    </net>
+    <net code="99" name="Net-(R77-Pad2)">
+      <node ref="R77" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="101" name="Net-(R36-Pad1)">
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="102" name="Net-(R57-Pad1)">
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="103" name="Net-(R78-Pad1)">
+      <node ref="R78" pin="1"/>
+    </net>
+    <net code="104" name="Net-(R35-Pad2)">
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="105" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="106" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="107" name="Net-(R44-Pad1)">
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="108" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="109" name="Net-(R42-Pad1)">
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="110" name="Net-(R63-Pad1)">
+      <node ref="R63" pin="1"/>
+    </net>
+    <net code="111" name="Net-(R84-Pad1)">
+      <node ref="R84" pin="1"/>
+    </net>
+    <net code="112" name="Net-(R83-Pad2)">
+      <node ref="R83" pin="2"/>
+    </net>
+    <net code="113" name="Net-(R62-Pad2)">
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="114" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="115" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="116" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="117" name="Net-(R41-Pad1)">
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="118" name="Net-(R62-Pad1)">
+      <node ref="R62" pin="1"/>
+    </net>
+    <net code="119" name="Net-(R83-Pad1)">
+      <node ref="R83" pin="1"/>
+    </net>
+    <net code="120" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="121" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="122" name="Net-(R44-Pad2)">
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="123" name="Net-(R65-Pad1)">
+      <node ref="R65" pin="1"/>
+    </net>
+    <net code="124" name="Net-(R65-Pad2)">
+      <node ref="R65" pin="2"/>
+    </net>
+    <net code="125" name="Net-(R86-Pad1)">
+      <node ref="R86" pin="1"/>
+    </net>
+    <net code="126" name="Net-(R86-Pad2)">
+      <node ref="R86" pin="2"/>
+    </net>
+    <net code="127" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="128" name="Net-(R45-Pad1)">
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="129" name="Net-(R66-Pad1)">
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="130" name="Net-(R87-Pad1)">
+      <node ref="R87" pin="1"/>
+    </net>
+    <net code="131" name="Net-(IC1-Pad13)">
       <node ref="IC1" pin="13"/>
     </net>
-    <net code="37" name="Net-(IC1-Pad12)">
+    <net code="132" name="Net-(IC1-Pad12)">
       <node ref="IC1" pin="12"/>
+    </net>
+    <net code="133" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="134" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="135" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="136" name="Net-(J1-PadS)">
+      <node ref="J1" pin="S"/>
+    </net>
+    <net code="137" name="Net-(R93-Pad1)">
+      <node ref="R93" pin="1"/>
+    </net>
+    <net code="138" name="Net-(R96-Pad1)">
+      <node ref="R96" pin="1"/>
+    </net>
+    <net code="139" name="Net-(R99-Pad1)">
+      <node ref="R99" pin="1"/>
+    </net>
+    <net code="140" name="Net-(R102-Pad1)">
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="141" name="Net-(R101-Pad2)">
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="142" name="Net-(R98-Pad2)">
+      <node ref="R98" pin="2"/>
+    </net>
+    <net code="143" name="Net-(R95-Pad2)">
+      <node ref="R95" pin="2"/>
+    </net>
+    <net code="144" name="Net-(R92-Pad2)">
+      <node ref="R92" pin="2"/>
+    </net>
+    <net code="145" name="Net-(R92-Pad1)">
+      <node ref="R92" pin="1"/>
+    </net>
+    <net code="146" name="Net-(R95-Pad1)">
+      <node ref="R95" pin="1"/>
+    </net>
+    <net code="147" name="Net-(R98-Pad1)">
+      <node ref="R98" pin="1"/>
+    </net>
+    <net code="148" name="Net-(R101-Pad1)">
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="149" name="Net-(R75-Pad1)">
+      <node ref="R75" pin="1"/>
+    </net>
+    <net code="150" name="Net-(R74-Pad1)">
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="151" name="Net-(R74-Pad2)">
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="152" name="Net-(R90-Pad1)">
+      <node ref="R90" pin="1"/>
+    </net>
+    <net code="153" name="Net-(R69-Pad1)">
+      <node ref="R69" pin="1"/>
+    </net>
+    <net code="154" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="155" name="Net-(R48-Pad1)">
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="156" name="Net-(R89-Pad2)">
+      <node ref="R89" pin="2"/>
+    </net>
+    <net code="157" name="Net-(R68-Pad2)">
+      <node ref="R68" pin="2"/>
+    </net>
+    <net code="158" name="Net-(R47-Pad2)">
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="159" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="160" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="161" name="Net-(R47-Pad1)">
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="162" name="Net-(R68-Pad1)">
+      <node ref="R68" pin="1"/>
+    </net>
+    <net code="163" name="Net-(R89-Pad1)">
+      <node ref="R89" pin="1"/>
+    </net>
+    <net code="164" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="165" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="166" name="Net-(R50-Pad1)">
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="167" name="Net-(R50-Pad2)">
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="168" name="Net-(R71-Pad1)">
+      <node ref="R71" pin="1"/>
+    </net>
+    <net code="169" name="Net-(R71-Pad2)">
+      <node ref="R71" pin="2"/>
+    </net>
+    <net code="170" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="171" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="172" name="Net-(R54-Pad1)">
+      <node ref="R54" pin="1"/>
+    </net>
+    <net code="173" name="Net-(R53-Pad2)">
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="174" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="175" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="176" name="Net-(R53-Pad1)">
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="177" name="Net-(R51-Pad1)">
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="178" name="Net-(R72-Pad1)">
+      <node ref="R72" pin="1"/>
     </net>
   </nets>
 </export>
