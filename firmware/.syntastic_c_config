@@ -1,0 +1,2 @@
+-D STM32F0
+-I libopencm3/include
