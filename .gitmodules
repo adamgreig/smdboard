@@ -1,3 +1,6 @@
 [submodule "agg-kicad"]
 	path = agg-kicad
 	url = https://github.com/adamgreig/agg-kicad.git
+[submodule "firmware/libopencm3"]
+	path = firmware/libopencm3
+	url = https://github.com/libopencm3/libopencm3.git
